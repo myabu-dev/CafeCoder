@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yuu/Documents/CafeCoder/TeaBreak02/Semiprime-like.cpp
+iostream
+-
+string
+-
+algorithm
+-
+vector
+-
+map
+-
+utility
+-
+math.h
+-
+stack
+-
+queue
+-
+cstdio
+-
+
