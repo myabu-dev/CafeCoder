@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Happiness-function
+
+# Build rule for target.
+Happiness-function: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Happiness-function
+.PHONY : Happiness-function
+
+# fast build rule for target.
+Happiness-function/fast:
+	$(MAKE) -f CMakeFiles/Happiness-function.dir/build.make CMakeFiles/Happiness-function.dir/build
+.PHONY : Happiness-function/fast
+
+#=============================================================================
 # Target rules for targets named Semiprime-like
 
 # Build rule for target.
@@ -122,6 +135,33 @@ Semiprime-like: cmake_check_build_system
 Semiprime-like/fast:
 	$(MAKE) -f CMakeFiles/Semiprime-like.dir/build.make CMakeFiles/Semiprime-like.dir/build
 .PHONY : Semiprime-like/fast
+
+Happiness-function.o: Happiness-function.cpp.o
+
+.PHONY : Happiness-function.o
+
+# target to build an object file
+Happiness-function.cpp.o:
+	$(MAKE) -f CMakeFiles/Happiness-function.dir/build.make CMakeFiles/Happiness-function.dir/Happiness-function.cpp.o
+.PHONY : Happiness-function.cpp.o
+
+Happiness-function.i: Happiness-function.cpp.i
+
+.PHONY : Happiness-function.i
+
+# target to preprocess a source file
+Happiness-function.cpp.i:
+	$(MAKE) -f CMakeFiles/Happiness-function.dir/build.make CMakeFiles/Happiness-function.dir/Happiness-function.cpp.i
+.PHONY : Happiness-function.cpp.i
+
+Happiness-function.s: Happiness-function.cpp.s
+
+.PHONY : Happiness-function.s
+
+# target to generate assembly for a file
+Happiness-function.cpp.s:
+	$(MAKE) -f CMakeFiles/Happiness-function.dir/build.make CMakeFiles/Happiness-function.dir/Happiness-function.cpp.s
+.PHONY : Happiness-function.cpp.s
 
 Semiprime-like.o: Semiprime-like.cpp.o
 
@@ -158,7 +198,11 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... Happiness-function"
 	@echo "... Semiprime-like"
+	@echo "... Happiness-function.o"
+	@echo "... Happiness-function.i"
+	@echo "... Happiness-function.s"
 	@echo "... Semiprime-like.o"
 	@echo "... Semiprime-like.i"
 	@echo "... Semiprime-like.s"

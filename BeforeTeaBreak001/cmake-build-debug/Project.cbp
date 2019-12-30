@@ -37,6 +37,48 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuu/Documents/CafeCoder/BeforeTeaBreak001/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Happiness-function">
+				<Option output="/Users/yuu/Documents/CafeCoder/BeforeTeaBreak001/cmake-build-debug/Happiness-function" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuu/Documents/CafeCoder/BeforeTeaBreak001/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuu/Documents/CafeCoder/BeforeTeaBreak001/cmake-build-debug/Makefile&quot;  VERBOSE=1 Happiness-function"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuu/Documents/CafeCoder/BeforeTeaBreak001/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuu/Documents/CafeCoder/BeforeTeaBreak001/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuu/Documents/CafeCoder/BeforeTeaBreak001/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Happiness-function/fast">
+				<Option output="/Users/yuu/Documents/CafeCoder/BeforeTeaBreak001/cmake-build-debug/Happiness-function" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuu/Documents/CafeCoder/BeforeTeaBreak001/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuu/Documents/CafeCoder/BeforeTeaBreak001/cmake-build-debug/Makefile&quot;  VERBOSE=1 Happiness-function/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuu/Documents/CafeCoder/BeforeTeaBreak001/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuu/Documents/CafeCoder/BeforeTeaBreak001/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuu/Documents/CafeCoder/BeforeTeaBreak001/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="Semiprime-like">
 				<Option output="/Users/yuu/Documents/CafeCoder/BeforeTeaBreak001/cmake-build-debug/Semiprime-like" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/yuu/Documents/CafeCoder/BeforeTeaBreak001/cmake-build-debug"/>
@@ -80,6 +122,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/yuu/Documents/CafeCoder/BeforeTeaBreak001/Happiness-function.cpp">
+			<Option target="Happiness-function"/>
+		</Unit>
 		<Unit filename="/Users/yuu/Documents/CafeCoder/BeforeTeaBreak001/Semiprime-like.cpp">
 			<Option target="Semiprime-like"/>
 		</Unit>

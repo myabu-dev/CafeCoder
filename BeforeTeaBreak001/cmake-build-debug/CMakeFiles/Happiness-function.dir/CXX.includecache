@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yuu/Documents/CafeCoder/BeforeTeaBreak001/Happiness-function.cpp
+iostream
+-
+string
+-
+algorithm
+-
+vector
+-
+map
+-
+utility
+-
+math.h
+-
+stack
+-
+queue
+-
+cstdio
+-
+
