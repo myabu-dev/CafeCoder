@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/yuu/Documents/CafeCoder/TeaBreak02/Semiprime-like.cpp" "/Users/yuu/Documents/CafeCoder/TeaBreak02/cmake-build-debug/CMakeFiles/Semiprime-like.dir/Semiprime-like.cpp.o"
+  "/Users/yuu/Documents/CafeCoder/BeforeTeaBreak001/Semiprime-like.cpp" "/Users/yuu/Documents/CafeCoder/BeforeTeaBreak001/cmake-build-debug/CMakeFiles/Semiprime-like.dir/Semiprime-like.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 
